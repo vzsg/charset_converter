@@ -26,7 +26,8 @@ apply plugin: 'kotlin-android'
 
 android {
     namespace "pl.pr0gramista.charset_converter"
-    
+    compileSdkVersion 34
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
